@@ -1,0 +1,19 @@
+{
+    "bosses": [
+        {
+            "name": "萊布尼茲",
+            "field": "Analysis",
+            "health": 160
+        },
+        {
+            "name": "伽羅瓦",
+            "field": "Algebra",
+            "health": 100
+        },
+        {
+            "name": "黎曼",
+            "field": "Geometry",
+            "health": 120
+        }
+    ]
+}

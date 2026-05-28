@@ -1,0 +1,24 @@
+{
+    "professors": [
+        {
+            "name": "楊青育",
+            "field": "Analysis",
+            "subjects": ["程式設計", "電子計算機概論", "微積分"]
+        },
+        {
+            "name": "李華介",
+            "field": "Algebra",
+            "subjects": ["線性代數", "數論", "代數"]
+        },
+        {
+            "name": "陳瑞堂",
+            "field": "Geometry",
+            "subjects": ["微分幾何", "高等幾何"]
+        },
+        {
+            "name": "陳賢修",
+            "field": "Analysis",
+            "subjects": ["微積分", "高等微積分", "微分方程導論"]
+        }
+    ]
+}
