@@ -320,7 +320,7 @@ def main():
             
             # 2. 繪製左側玩家屬性
             lives_left = 3 - player_deaths
-            p_info_1 = font.render(f"玩家: {p1.name} ({p1.sex}) | HP: {max(0.0, p1.health):.0f}/100 | 生命: {lives_left}", True, (255, 255, 255))
+            p_info_1 = font.render(f"玩家: {p1.name} ({p1.sex}) | HP: {max(0.0, p1.health):.0f} | 生命: {lives_left}", True, (255, 255, 255))
             p_info_2 = font.render(f"【能力】 代數: {p1.algebra:.2f}   幾何: {p1.geometry:.2f}   分析: {p1.analysis:.2f}", True, (116, 185, 255))
             screen.blit(p_info_1, (15, 8))
             screen.blit(p_info_2, (15, 32))
