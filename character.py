@@ -1,6 +1,5 @@
 import random
 import json
-import item
 
 class professor:
     def __init__(self, prof: dict):
@@ -16,6 +15,9 @@ class boss:
         self.field = boss['field']
         self.health = boss['health']
         self.position = (0, 0)  # 怨靈的初始位置，進入地圖後會被更新
+
+class item:
+    pass
 
 class player:
     def __init__(self, name, sex):
